@@ -12,6 +12,7 @@ begin
     gem.authors = ["gabrielg"]
     gem.add_development_dependency "riot", ">= 0"
     gem.add_development_dependency "yard", ">= 0"
+    gem.add_dependency "mongoid", "~>1.2"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
